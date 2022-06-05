@@ -20,7 +20,7 @@
         </div>
     </header>
 
-    <section id="blogs">
+    <main id="blogs">
         <h1>Blogs</h1>
         <article itemscope itemtype="https://schema.org/Article">
             <h2 itemprop="headline">Why the new 'BeReal' social media is a great concept, but how long will it last?</h2>
@@ -76,31 +76,87 @@
                 So, in hopes of helping developers design these websites more effectively, I have compiled a list  
                 of design principles for a successful Municipal site:</p>
                 <ul>
-                    <li><strong>Consistency</strong> - Designs that change throughout the different pages of a site (or within the page) 
+                    <li><strong>Consistency</strong>&mdash;Designs that change throughout the different pages of a site (or within the page) 
                     end up confusing the user and causing them to feel less familiar/confident in using the interface. 
                     Give users control by designing repeatable patterns.</li>
-                    <li><strong>Smart Content Organization</strong> - Organizing content will most likely be the most
+                    <li><strong>Smart Content Organization</strong>&mdash;Organizing content will most likely be the most
                     time consuming part in the design process. Make sure to not overcrowd the navigation with too many 
                     pages, especially if some of those pages are similar enough to be grouped together. It is always a good
                     idea to organize content hierarchically. As the user moves from page to page the more specific the navigation 
                     becomes. For example, the main navigation bar could have an option for 'Departments', and inside 'Departments'
                     are subpages for 'Assessor', 'Treasurer', etc, and inside 'Treasurer' could be a page to pay for property taxes.
                     It is essential to not bombard the user with each specific page that exists on the site in the main navigation bar.</li>
-                    <li><strong>Readability</strong> - Most Municipalities and other Governement Entities are required by law to make 
+                    <li><strong>Readability</strong>&mdash;Most Municipalities and other Governement Entities are required by law to make 
                     their websites ADA Compliant (Americans with Disabilities Act). This means that websites must offer people with 
                     disabilities access to the same services as anyone else. For example, people with color blindness must be able to 
                     clearly read the text on a website, so there must be sufficient contrast between the text and the background. Also,
                     text must be able to be read from a screen reader so blind individuals are able to get information. Some tips are to 
                     make sure alt text of images are descriptive, use images with text as little as possible (instead add text to markup), 
                     and make sure content is separated clearly with headers.</li>
-                    <li><strong>Maintainability</strong> - Municipal websites have to be updated often, whether it is adding the latest
+                    <li><strong>Maintainability</strong>&mdash;Municipal websites have to be updated often, whether it is adding the latest
                     City Council Minutes or adding an agenda to the announcements, designing a solution to make these updates as easy and as 
                     quick as possible are extremely helpful to people that are making these updates. More than not, the simplist design often 
                     leads to the most maintainable, so next time you have a fun design idea, first think about how to make it easy for others 
                     to understand how it works.</li>
                 </ul>
+                <p>To help your site become ADA Compliant by meeting AA WCAG 2.0 standards, follow the guidelines specified in 
+                <a href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0&currentsidebar=%23col_customize&levels=a%2Caaa&showtechniques=125" target="_blank">w3.org</a>:</p>
+                <table>
+                    <tr>
+                        <th>Rule</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Captions (Live)</td>
+                        <td>Captions are provided for all live audio content in synchronized media</td>
+                    </tr>
+                    <tr>
+                        <td>Audio Description (Prerecorded)</td>
+                        <td>Audio description is provided for all prerecorded video content in synchronized media</td>
+                    </tr>
+                    <tr>
+                        <td>Contrast (Minimum)</td>
+                        <td>The visual presentation of text and images of text has a contrast ratio of at least 4.5:1</td>
+                    </tr>
+                    <tr>
+                        <td>Resize text</td>
+                        <td>Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality</td>
+                    </tr>
+                    <tr>
+                        <td>Images of Text</td>
+                        <td>If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text</td>
+                    </tr>
+                    <tr>
+                        <td>Multiple Ways</td>
+                        <td>More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process</td>
+                    </tr>
+                    <tr>
+                        <td>Headings and Labels</td>
+                        <td>Headings and labels describe topic or purpose</td>
+                    </tr>
+                    <tr>
+                        <td>Focus Visible</td>
+                        <td>Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible</td>
+                    </tr>
+                    <tr>
+                        <td>Language of Parts</td>
+                        <td>The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text</td>
+                    </tr>
+                    <tr>
+                        <td>Consistent Navigation</td>
+                        <td>Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user</td>
+                    </tr>
+                    <tr>
+                        <td>Consistent Identification</td>
+                        <td>Components that have the same functionality within a set of Web pages are identified consistently</td>
+                    </tr>
+                    <tr>
+                        <td>Error Suggestion</td>
+                        <td>If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content</td>
+                    </tr>
+                </table>
             </div>
         </article>
-    </section>
+    </main>
 </body>
 </html>
