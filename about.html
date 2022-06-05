@@ -41,13 +41,13 @@
     <section id="contact">
         <form>
             <label for="name">Name:
-                <input name="name" type="text" placeholder="Name" required>
+                <input id="name" name="name" type="text" placeholder="Name" required>
             </label>
             <label for="email">Email Address:
-                <input name="email" type="email" placeholder="Email" required>
+                <input id="email" name="email" type="email" placeholder="Email" required>
             </label>
             <label for="reason">Reason for contact:
-                <select name="reason" required>
+                <select id="reason" name="reason" required>
                     <option disabled selected value>--Please select an option--</option>
                     <option value="hi">Saying hi</option>
                     <option value="contractor">Looking for a contractor</option>
@@ -55,7 +55,7 @@
                 </select>
             </label>
             <label for="comments">Additional Comments
-                <textarea name="comments" rows="5"></textarea>
+                <textarea id="comments" name="comments" rows="5"></textarea>
             </label>
             <button>Subscribe</button>
         </form>
