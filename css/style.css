@@ -1,7 +1,7 @@
 /* variables */
 :root {
-    --primary: #F7F3E3;
-    --secondary: #6F1A07;
+    --primary: #571d10;
+    --secondary: #F7F3E3;
     --accent: #2B2118;
 
     --text: #2a2a2a;
@@ -36,7 +36,7 @@ h1, h2, h3, p {
     color: var(--secondary);
  }
 
- nav #main-nav li {
+#main-nav li a{
     text-decoration: none;
     color: var(--secondary);
     font-weight: 600;
@@ -64,6 +64,10 @@ header {
     background: var(--primary);
     height: 115px;
     padding: 15px 50px;
+    margin-bottom: 100px;
+
+    display: grid;
+    align-content: center;
 }
 
 header .container {
@@ -71,16 +75,13 @@ header .container {
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-
-    display: grid;
-    align-content: center;
 }
 
 nav {
     flex: 1;
 }
 
-nav #main-nav {
+#main-nav {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -90,7 +91,7 @@ nav #main-nav {
     justify-content: flex-end;
 }
 
-nav #main-nav li {
+#main-nav li {
     margin: 0 2.5em;
 }
 
