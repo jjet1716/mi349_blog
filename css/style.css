@@ -32,13 +32,20 @@ h1, h2, h3, p {
 
 .logo p {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--secondary);
+ }
+
+ nav #main-nav li {
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 1.25rem;
  }
 
 h1 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--accent);
 }
 
@@ -55,7 +62,7 @@ p {
 header {
     width: 100%;
     background: var(--primary);
-    height: 200px;
+    height: 115px;
     padding: 15px 50px;
 }
 
@@ -64,16 +71,27 @@ header .container {
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
+
+    display: grid;
+    align-content: center;
+}
+
+nav {
+    flex: 1;
 }
 
 nav #main-nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+nav #main-nav li {
+    margin: 0 2.5em;
 }
 
 section {
