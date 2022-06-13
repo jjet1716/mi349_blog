@@ -168,10 +168,18 @@ section {
 }
 
 /* about me */
-.col--2 {
+.col-layout {
     display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap;
 }
+
+.col-layout .col--2 {
+    flex: 0 0 50%;
+}
+
+.col-layout .col--2:not(:last-child) {
+    padding-right: 3em;
+} 
 
 
  
