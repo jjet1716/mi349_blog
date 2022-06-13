@@ -105,8 +105,24 @@ section {
 }
 
 /* article styling */
-#blogs section:not(:last-child) {
+#blogs article {
+    position: relative;
+}
+
+#blogs article:not(:last-child) {
+    padding-bottom: 50px;
     margin-bottom: 50px;
+}
+
+#blogs article:not(:last-child)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--text);
 }
 
 .blog-meta {
