@@ -46,12 +46,18 @@
     </section>
     <section id="contact">
         <form>
-            <label for="name">Name:
-                <input id="name" name="name" type="text" placeholder="Name" required>
-            </label>
-            <label for="email">Email Address:
-                <input id="email" name="email" type="email" placeholder="Email" required>
-            </label>
+            <div class="col-layout">
+                <div class="col--2">
+                    <label for="name">Name:
+                        <input id="name" name="name" type="text" placeholder="Name" required>
+                    </label>
+                </div>
+                <div class="col--2">
+                    <label for="email">Email Address:
+                        <input id="email" name="email" type="email" placeholder="Email" required>
+                    </label>
+                </div>
+            </div>
             <label for="reason">Reason for contact:
                 <select id="reason" name="reason" required>
                     <option disabled selected value>--Please select an option--</option>

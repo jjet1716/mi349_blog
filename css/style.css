@@ -190,5 +190,11 @@ section {
     border-radius: 3px;
 }
 
+#contact form label{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
  
