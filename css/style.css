@@ -18,7 +18,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: black;
+    color: var(--text);
     line-height: 1.15;
 }
 
@@ -47,6 +47,7 @@ h1 {
     font-size: 2rem;
     font-weight: 800;
     color: var(--accent);
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -101,4 +102,32 @@ section {
     margin: 0 auto;
     padding: 0 150px;
 }
+
+/* article styling */
+.blog-meta {
+    display: flex;
+    position: relative;
+}
+
+.blog-meta > * {
+    position: relative;
+}
+
+.blog-meta > *:not(:last-child) {
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+.blog-meta > *:not(:last-child)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 16px;
+    background-color: var(--text);
+}
+
+
  
