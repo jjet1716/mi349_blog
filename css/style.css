@@ -94,6 +94,10 @@ header .container {
     header {
         height: 150px;
     }
+
+    .logo p {
+        font-size: 2rem;
+     }
 }
 
 nav {
