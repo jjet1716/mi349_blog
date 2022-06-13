@@ -171,6 +171,7 @@ section {
 .col-layout {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 25px;
 }
 
 .col-layout .col--2 {
@@ -180,6 +181,14 @@ section {
 .col-layout .col--2:not(:last-child) {
     padding-right: 3em;
 } 
+
+#about-image-container img {
+    width: auto;
+    max-width: 100%;
+    max-height: 750px;
+    border: 1px solid #00000036;
+    border-radius: 3px;
+}
 
 
  
